@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.Benchmarks
+namespace MartiX.SmartEnum.Benchmarks
 {
     using System;
     using BenchmarkDotNet.Attributes;

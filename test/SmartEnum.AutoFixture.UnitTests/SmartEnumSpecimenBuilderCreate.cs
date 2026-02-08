@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.AutoFixture.UnitTests
+namespace MartiX.SmartEnum.AutoFixture.UnitTests
 {
     using global::AutoFixture;
     using FluentAssertions;

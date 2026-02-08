@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
-using Ardalis.SmartEnum;
+using MartiX.SmartEnum;
 
-namespace Ardalis.SmartEnum.JsonNet.UnitTests
+namespace MartiX.SmartEnum.JsonNet.UnitTests
 {
     public class FlagTestEnums
     {

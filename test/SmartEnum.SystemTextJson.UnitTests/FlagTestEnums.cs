@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.SystemTextJson.UnitTests
+namespace MartiX.SmartEnum.SystemTextJson.UnitTests
 {
     public sealed class FlagTestEnumUnsignedInt16 : SmartFlagEnum<FlagTestEnumUnsignedInt16, ushort>
     {

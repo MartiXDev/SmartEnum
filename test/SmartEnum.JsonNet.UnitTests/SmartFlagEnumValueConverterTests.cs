@@ -1,11 +1,11 @@
-﻿using Ardalis.SmartEnum;
-using Ardalis.SmartEnum.JsonNet;
+﻿using MartiX.SmartEnum;
+using MartiX.SmartEnum.JsonNet;
 using FluentAssertions;
 using Newtonsoft.Json;
 using System;
 using Xunit;
 
-namespace Ardalis.SmartEnum.JsonNet.UnitTests
+namespace MartiX.SmartEnum.JsonNet.UnitTests
 {
     public class SmartFlagEnumValueConverterTests
     {

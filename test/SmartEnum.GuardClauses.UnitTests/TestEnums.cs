@@ -1,4 +1,4 @@
-using Ardalis.SmartEnum;
+using MartiX.SmartEnum;
 
 namespace SmartEnum.GuardClauses.UnitTests
 {

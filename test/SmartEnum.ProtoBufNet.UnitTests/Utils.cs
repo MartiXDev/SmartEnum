@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Ardalis.SmartEnum.ProtoBufNet
+namespace MartiX.SmartEnum.ProtoBufNet
 {
     using System.IO;
     using ProtoBuf.Meta;

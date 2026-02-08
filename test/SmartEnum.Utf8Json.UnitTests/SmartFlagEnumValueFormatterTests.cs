@@ -6,7 +6,7 @@ using Utf8Json;
 using Utf8Json.Resolvers;
 using Xunit;
 
-namespace Ardalis.SmartEnum.Utf8Json.UnitTests
+namespace MartiX.SmartEnum.Utf8Json.UnitTests
 {
     public class SmartFlagEnumValueFormatterTests
     {

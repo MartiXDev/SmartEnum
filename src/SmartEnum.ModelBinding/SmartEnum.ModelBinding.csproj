@@ -1,20 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <PackageId>Ardalis.SmartEnum.ModelBinding</PackageId>
-        <Title>Ardalis.SmartEnum.ModelBinding</Title>
-        <Description>ASP.NET Core MVC Model Binding Support for Ardalis.SmartEnum.</Description>
-        <Summary>ASP.NET Core MVC Model Binding Support for Ardalis.SmartEnum.</Summary>
+        <PackageId>MartiX.SmartEnum.ModelBinding</PackageId>
+        <Title>MartiX.SmartEnum.ModelBinding</Title>
+        <Description>ASP.NET Core MVC Model Binding Support for MartiX.SmartEnum.</Description>
+        <Summary>ASP.NET Core MVC Model Binding Support for MartiX.SmartEnum.</Summary>
         <PackageTags>enum;smartenum;ardalis;aspnet;aspnetcore;mvc;model binding;modelbinding</PackageTags>
         <PackageIcon>icon.png</PackageIcon>
-		<PackageReleaseNotes>See root package release notes</PackageReleaseNotes>
-        <AssemblyName>Ardalis.SmartEnum.ModelBinding</AssemblyName>
+        <PackageReleaseNotes>See root package release notes</PackageReleaseNotes>
+        <AssemblyName>MartiX.SmartEnum.ModelBinding</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" />
-        <PackageReference Include="Newtonsoft.Json" />
-        <PackageReference Include="System.Text.Encodings.Web" />
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\SmartEnum\SmartEnum.csproj" />

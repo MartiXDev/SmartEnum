@@ -1,4 +1,4 @@
-using Ardalis.SmartEnum;
+using MartiX.SmartEnum;
 using System.Runtime.CompilerServices;
 
 namespace SmartEnum.EFCore.IntegrationTests

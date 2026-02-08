@@ -1,56 +1,56 @@
-[![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum)
-![Last Publish Ardalis.SmartEnum to NuGet](https://github.com/ardalis/SmartEnum/workflows/publish%20Ardalis.SmartEnum%20to%20nuget/badge.svg)
+[![NuGet](https://img.shields.io/nuget/v/MartiX.SmartEnum.svg)](https://www.nuget.org/packages/MartiX.SmartEnum)[![NuGet](https://img.shields.io/nuget/dt/MartiX.SmartEnum.svg)](https://www.nuget.org/packages/MartiX.SmartEnum)
+![Last Publish MartiX.SmartEnum to NuGet](https://github.com/ardalis/SmartEnum/workflows/publish%20MartiX.SmartEnum%20to%20nuget/badge.svg)
 
 ## Table Of Contents
 
 - [Table Of Contents](#table-of-contents)
-  * [Sub-packages](#sub-packages)
-  * [Give a Star! ⭐](give-a-star-star)
+  - [Sub-packages](#sub-packages)
+  - [Give a Star! ⭐](give-a-star-star)
 - [SmartEnum](#smart-enum)
-  * [Contributors](#contributors)
+  - [Contributors](#contributors)
 - [Install](#install)
-  * [Version](#version)
+  - [Version](#version)
 - [Usage](#usage)
-  * [List](#list)
-  * [FromName()](#fromname)
-  * [FromValue()](#fromvalue)
-  * [ToString()](#tostring)
-  * [Switch](#switch)
-  * [SmartFlagEnum](#smartflagenum)
-  * [Setting SmartFlagEnum Values](#setting-smartflagenum-values)
-  * [Usage - (SmartFlagEnum)](#usage---smartflagenum)
-  * [FromName()](#fromname-1)
-  * [FromValue()](#fromvalue-1)
-  * [FromValueToString()](#fromvaluetostring)
-  * [BitWiseOrOperator](#bitwiseoroperator)
-  * [Persisting with EF Core 2.1 or higher](#persisting-with-ef-core-21-or-higher)
-  * [Using SmartEnum.EFCore](#using-smartenumefcore)
-  * [AutoFixture support](#autofixture-support)
-  * [Json support](#jsonnet-support)
-  * [Dapper support](#dapper-support)
-  * [DapperSmartEnum](#dappersmartenum)
-  * [Case Insensitive String Enum](#case-insensitive-string-enum)
-  * [Name Validation Attribute](#name-validation-attribute)
-  * [Examples in the Real World](#examples-in-the-real-world)
-  * [References](#references)
+  - [List](#list)
+  - [FromName()](#fromname)
+  - [FromValue()](#fromvalue)
+  - [ToString()](#tostring)
+  - [Switch](#switch)
+  - [SmartFlagEnum](#smartflagenum)
+  - [Setting SmartFlagEnum Values](#setting-smartflagenum-values)
+  - [Usage - (SmartFlagEnum)](#usage---smartflagenum)
+  - [FromName()](#fromname-1)
+  - [FromValue()](#fromvalue-1)
+  - [FromValueToString()](#fromvaluetostring)
+  - [BitWiseOrOperator](#bitwiseoroperator)
+  - [Persisting with EF Core 2.1 or higher](#persisting-with-ef-core-21-or-higher)
+  - [Using SmartEnum.EFCore](#using-smartenumefcore)
+  - [AutoFixture support](#autofixture-support)
+  - [Json support](#jsonnet-support)
+  - [Dapper support](#dapper-support)
+  - [DapperSmartEnum](#dappersmartenum)
+  - [Case Insensitive String Enum](#case-insensitive-string-enum)
+  - [Name Validation Attribute](#name-validation-attribute)
+  - [Examples in the Real World](#examples-in-the-real-world)
+  - [References](#references)
 
 ### Sub-packages
 
-SmartEnum.AutoFixture: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.AutoFixture.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.AutoFixture)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.AutoFixture.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.AutoFixture)![publish SmartEnum.AutoFixture to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.AutoFixture%20to%20nuget/badge.svg)
+SmartEnum.AutoFixture: [![NuGet](https://img.shields.io/nuget/v/MartiX.SmartEnum.AutoFixture.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.AutoFixture)[![NuGet](https://img.shields.io/nuget/dt/MartiX.SmartEnum.AutoFixture.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.AutoFixture)![publish SmartEnum.AutoFixture to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.AutoFixture%20to%20nuget/badge.svg)
 
-SmartEnum.Dapper: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.Dapper.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.Dapper)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.Dapper.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.Dapper)![publish SmartEnum.Dapper to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.Dapper%20to%20nuget/badge.svg)
+SmartEnum.Dapper: [![NuGet](https://img.shields.io/nuget/v/MartiX.SmartEnum.Dapper.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.Dapper)[![NuGet](https://img.shields.io/nuget/dt/MartiX.SmartEnum.Dapper.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.Dapper)![publish SmartEnum.Dapper to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.Dapper%20to%20nuget/badge.svg)
 
-SmartEnum.EFCore: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.EFCore.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.EFCore)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.EFCore.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.EFCore)![publish SmartEnum.EFCore to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.EFCore%20to%20nuget/badge.svg)
+SmartEnum.EFCore: [![NuGet](https://img.shields.io/nuget/v/MartiX.SmartEnum.EFCore.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.EFCore)[![NuGet](https://img.shields.io/nuget/dt/MartiX.SmartEnum.EFCore.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.EFCore)![publish SmartEnum.EFCore to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.EFCore%20to%20nuget/badge.svg)
 
-SmartEnum.JsonNet: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.JsonNet.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.JsonNet)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.JsonNet.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.JsonNet)![publish jsonnet to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.JsonNet%20to%20nuget/badge.svg)
+SmartEnum.JsonNet: [![NuGet](https://img.shields.io/nuget/v/MartiX.SmartEnum.JsonNet.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.JsonNet)[![NuGet](https://img.shields.io/nuget/dt/MartiX.SmartEnum.JsonNet.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.JsonNet)![publish jsonnet to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.JsonNet%20to%20nuget/badge.svg)
 
-SmartEnum.MessagePack: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.MessagePack.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.MessagePack)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.MessagePack.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.MessagePack)![publish SmartEnum.MessagePack to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.MessagePack%20to%20nuget/badge.svg)
+SmartEnum.MessagePack: [![NuGet](https://img.shields.io/nuget/v/MartiX.SmartEnum.MessagePack.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.MessagePack)[![NuGet](https://img.shields.io/nuget/dt/MartiX.SmartEnum.MessagePack.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.MessagePack)![publish SmartEnum.MessagePack to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.MessagePack%20to%20nuget/badge.svg)
 
-SmartEnum.ProtoBufNet: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.ProtoBufNet.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.ProtoBufNet)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.ProtoBufNet.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.ProtoBufNet)![publish SmartEnum.ProtoBufNet to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.ProtoBufNet%20to%20nuget/badge.svg)
+SmartEnum.ProtoBufNet: [![NuGet](https://img.shields.io/nuget/v/MartiX.SmartEnum.ProtoBufNet.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.ProtoBufNet)[![NuGet](https://img.shields.io/nuget/dt/MartiX.SmartEnum.ProtoBufNet.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.ProtoBufNet)![publish SmartEnum.ProtoBufNet to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.ProtoBufNet%20to%20nuget/badge.svg)
 
-SmartEnum.SystemTextJson: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.SystemTextJson.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.SystemTextJson)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.SystemTextJson.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.SystemTextJson)![publish SmartEnum.SystemTextJson to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.SystemTextJson%20to%20nuget/badge.svg)
+SmartEnum.SystemTextJson: [![NuGet](https://img.shields.io/nuget/v/MartiX.SmartEnum.SystemTextJson.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.SystemTextJson)[![NuGet](https://img.shields.io/nuget/dt/MartiX.SmartEnum.SystemTextJson.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.SystemTextJson)![publish SmartEnum.SystemTextJson to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.SystemTextJson%20to%20nuget/badge.svg)
 
-SmartEnum.Utf8Json: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.Utf8Json.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.Utf8Json)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.Utf8Json.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.Utf8Json)![publish SmartEnum.Utf8Json to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.Utf8Json%20to%20nuget/badge.svg)
+SmartEnum.Utf8Json: [![NuGet](https://img.shields.io/nuget/v/MartiX.SmartEnum.Utf8Json.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.Utf8Json)[![NuGet](https://img.shields.io/nuget/dt/MartiX.SmartEnum.Utf8Json.svg)](https://www.nuget.org/packages/MartiX.SmartEnum.Utf8Json)![publish SmartEnum.Utf8Json to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.Utf8Json%20to%20nuget/badge.svg)
 
 ## Give a Star! :star:
 
@@ -71,33 +71,33 @@ The framework is provided as a set of NuGet packages. In many cases you'll only 
 To install the minimum requirements:
 
 ```
-Install-Package Ardalis.SmartEnum
+Install-Package MartiX.SmartEnum
 ```
 
 To install support for serialization, AutoFixture, EF Core, Model Binding, or Dapper select the lines that apply:
 
 ```
-Install-Package Ardalis.SmartEnum.AutoFixture
-Install-Package Ardalis.SmartEnum.JsonNet
-Install-Package Ardalis.SmartEnum.SystemTextJson
-Install-Package Ardalis.SmartEnum.Utf8Json
-Install-Package Ardalis.SmartEnum.MessagePack
-Install-Package Ardalis.SmartEnum.ProtoBufNet
-Install-Package Ardalis.SmartEnum.EFCore
-Install-Package Ardalis.SmartEnum.ModelBinding
-Install-Package Ardalis.SmartEnum.Dapper
+Install-Package MartiX.SmartEnum.AutoFixture
+Install-Package MartiX.SmartEnum.JsonNet
+Install-Package MartiX.SmartEnum.SystemTextJson
+Install-Package MartiX.SmartEnum.Utf8Json
+Install-Package MartiX.SmartEnum.MessagePack
+Install-Package MartiX.SmartEnum.ProtoBufNet
+Install-Package MartiX.SmartEnum.EFCore
+Install-Package MartiX.SmartEnum.ModelBinding
+Install-Package MartiX.SmartEnum.Dapper
 ```
 
 ## Version
 
-The latest version of the package supports .NET 8 and NetStandard 2.0.
+The latest version of the package supports .NET 8 and above.
 
 ## Usage
 
 Define your smart enum by inheriting from `SmartEnum<TEnum>` where `TEnum` is the type you're declaring. For [example](/test/SmartEnum.UnitTests/TestEnum.cs):
 
 ```csharp
-using Ardalis.SmartEnum;
+using MartiX.SmartEnum;
 
 public sealed class TestEnum : SmartEnum<TestEnum>
 {
@@ -115,7 +115,7 @@ The default value type is `int` but it can be set using the second generic argum
 The string alias can also be set explicitly, where spaces are allowed.
 
 ```csharp
-using Ardalis.SmartEnum;
+using MartiX.SmartEnum;
 
 public sealed class TestEnum : SmartEnum<TestEnum, ushort>
 {
@@ -132,7 +132,7 @@ public sealed class TestEnum : SmartEnum<TestEnum, ushort>
 Just like regular `enum`, more than one string can be assigned to the same value but only one value can be assigned to a string:
 
 ```csharp
-using Ardalis.SmartEnum;
+using MartiX.SmartEnum;
 
 public sealed class TestEnum : SmartEnum<TestEnum>
 {
@@ -163,7 +163,7 @@ Inheritance can be used to add "behavior" to a smart enum.
 This example adds a `BonusSize` property, avoiding the use of the `switch` typically used with regular enums:
 
 ```csharp
-using Ardalis.SmartEnum;
+using MartiX.SmartEnum;
 
 public abstract class EmployeeType : SmartEnum<EmployeeType>
 {
@@ -222,7 +222,7 @@ public class Manager
 This other example implements a *state machine*. The method `CanTransitionTo()` returns `true` if it's allowed to transition from current state to `next`; otherwise returns `false`.
 
 ```csharp
-using Ardalis.SmartEnum;
+using MartiX.SmartEnum;
 
 public abstract class ReservationStatus : SmartEnum<ReservationStatus>
 {
@@ -382,6 +382,7 @@ switch(testEnumVar)
         break;
 }
 ```
+
 Because of the limitations of pattern matching SmartEnum also provides a fluent interface to help create clean code:
 
 ```csharp
@@ -676,7 +677,7 @@ Remember, you need to implement your own parameterless constructor to make it wo
 
 #### Using SmartEnum.EFCore
 
-EF Core 6 introduced pre-convention model configuration which allows value conversions to be configured for specific types within a model. If you have installed `Ardalis.SmartEnum.EFCore` it is sufficient to add the following line at the beginning of the `ConfigureConventions` method:
+EF Core 6 introduced pre-convention model configuration which allows value conversions to be configured for specific types within a model. If you have installed `MartiX.SmartEnum.EFCore` it is sufficient to add the following line at the beginning of the `ConfigureConventions` method:
 
 ```csharp
 protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
@@ -700,7 +701,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 
 ## AutoFixture support
 
-New instance of a `SmartEnum` should not be created. Instead, references to the existing ones should always be used. [AutoFixture](https://github.com/AutoFixture/AutoFixture) by default doesn't know how to do this. The `Ardalis.SmartEnum.AutoFixture` package includes a specimen builder for `SmartEnum`. Simply add the customization to the `IFixture` builder:
+New instance of a `SmartEnum` should not be created. Instead, references to the existing ones should always be used. [AutoFixture](https://github.com/AutoFixture/AutoFixture) by default doesn't know how to do this. The `MartiX.SmartEnum.AutoFixture` package includes a specimen builder for `SmartEnum`. Simply add the customization to the `IFixture` builder:
 
 ```csharp
 var fixture = new Fixture()
@@ -711,13 +712,15 @@ var smartEnum = fixture.Create<TestEnum>();
 
 ## Json support
 
-When serializing a `SmartEnum` to JSON, only one of the properties (`Value` or `Name`) should be used. 
+When serializing a `SmartEnum` to JSON, only one of the properties (`Value` or `Name`) should be used.
 
 ### Json<span></span>.Net
-[Json.NET](https://www.newtonsoft.com/json) by default doesn't know how to do this. The `Ardalis.SmartEnum.JsonNet` package includes a couple of converters to achieve this. Simply use the attribute [JsonConverterAttribute](https://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_JsonConverter.htm) to assign one of the converters to the `SmartEnum` to be de/serialized:
+
+[Json.NET](https://www.newtonsoft.com/json) by default doesn't know how to do this. The `MartiX.SmartEnum.JsonNet` package includes a couple of converters to achieve this. Simply use the attribute [JsonConverterAttribute](https://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_JsonConverter.htm) to assign one of the converters to the `SmartEnum` to be de/serialized:
 
 ### System<span></span>.Text<span></span>.Json
-[System.Text.Json](https://learn.microsoft.com/en-us/dotnet/api/system.text.json?view=net-8.0) by default doesn't know how to do this. The `Ardalis.SmartEnum.SystemTextJson` package includes a couple of converters to achieve this. Simply use the attribute [JsonConverterAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.text.json.serialization.jsonconverterattribute?view=net-8.0) to assign one of the converters to the `SmartEnum` to be de/serialized:
+
+[System.Text.Json](https://learn.microsoft.com/en-us/dotnet/api/system.text.json?view=net-8.0) by default doesn't know how to do this. The `MartiX.SmartEnum.SystemTextJson` package includes a couple of converters to achieve this. Simply use the attribute [JsonConverterAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.text.json.serialization.jsonconverterattribute?view=net-8.0) to assign one of the converters to the `SmartEnum` to be de/serialized:
 
 ```csharp
 public class TestClass
@@ -830,16 +833,20 @@ var e2 = CaseInsensitiveEnum.FromValue("one");
 
 //e1 is equal to e2
 ```
+
 ## Name Validation Attribute
+
 The DataAnnotations ValidationAttribute `SmartEnumNameAttribute` allows you to validate your models, mandating that when provided a value it must be matching the name of a given `SmartEnum`. This attribute allows `null` values (use `[Required]` to disallow nulls).
 
 In addition to specifying the `SmartEnum` to match, you may also pass additional parameters:
+
 - `allowCaseInsensitiveMatch` (default `false`)
 - `errorMessage` (default `"{0} must be one of: {1}"`): A format string to customize the error
   - `{0}` is the name of the property being validated
   - `{1}` is the comma-separated list of valid `SmartEnum` names
 
 ### Example of Name Validation Attribute
+
 ```csharp
 public sealed class ExampleSmartEnum : SmartEnum<ExampleSmartEnum>
 {
@@ -864,7 +871,7 @@ public class ExampleModel
 
 - [Race](https://github.com/pdevito3/PeakLimsApi/blob/main/PeakLims/src/PeakLims/Domain/Races/Race.cs)
 
-[Search for more](https://github.com/search?l=C%23&q=Ardalis.SmartEnum&type=Code)
+[Search for more](https://github.com/search?l=C%23&q=MartiX.SmartEnum&type=Code)
 
 ## References
 

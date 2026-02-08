@@ -6,9 +6,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using Ardalis.SmartEnum.Exceptions;
+using MartiX.SmartEnum.Exceptions;
 
-namespace Ardalis.SmartEnum
+namespace MartiX.SmartEnum
 {
     /// <summary>
     /// 

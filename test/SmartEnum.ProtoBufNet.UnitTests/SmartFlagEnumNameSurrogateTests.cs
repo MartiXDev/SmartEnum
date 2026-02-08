@@ -3,7 +3,7 @@ using ProtoBuf;
 using ProtoBuf.Meta;
 using Xunit;
 
-namespace Ardalis.SmartEnum.ProtoBufNet.UnitTests
+namespace MartiX.SmartEnum.ProtoBufNet.UnitTests
 {
     public class SmartFlagEnumNameSurrogateTests
     {
@@ -36,7 +36,7 @@ namespace Ardalis.SmartEnum.ProtoBufNet.UnitTests
 
         readonly string SchemaString =
             @"syntax = ""proto3"";
-package Ardalis.SmartEnum.ProtoBufNet;
+package MartiX.SmartEnum.ProtoBufNet;
 
 message SmartFlagEnumNameSurrogate_FlagTestEnumInt32_Int32 {
    string Name = 1;

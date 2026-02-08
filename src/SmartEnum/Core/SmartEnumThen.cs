@@ -1,6 +1,6 @@
 using System;
 
-namespace Ardalis.SmartEnum.Core
+namespace MartiX.SmartEnum.Core
 {
     /// <summary>
     /// 

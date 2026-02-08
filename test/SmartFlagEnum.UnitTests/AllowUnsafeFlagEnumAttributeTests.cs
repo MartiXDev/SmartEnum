@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Ardalis.SmartEnum;
-using Ardalis.SmartEnum.Exceptions;
+using MartiX.SmartEnum;
+using MartiX.SmartEnum.Exceptions;
 using Xunit;
 using Xunit.Sdk;
 
-namespace Ardalis.SmartFlagEnum.UnitTests
+namespace MartiX.SmartFlagEnum.UnitTests
 {
     public class SmartTestAttributeSafeContainsPowOfTwo : SmartFlagEnum<SmartTestAttributeSafeContainsPowOfTwo>
     {

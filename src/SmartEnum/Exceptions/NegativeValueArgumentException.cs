@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
-namespace Ardalis.SmartEnum.Exceptions
+namespace MartiX.SmartEnum.Exceptions
 {
     /// <summary>
     /// The exception that is thrown when a negative value is provided as an argument value.

@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.Utf8Json
+namespace MartiX.SmartEnum.Utf8Json
 {
     using System;
     using global::Utf8Json;

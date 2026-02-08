@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Ardalis.SmartEnum;
+namespace MartiX.SmartEnum;
 
 internal static class TypeExtensions
 {

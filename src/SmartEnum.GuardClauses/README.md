@@ -1,35 +1,35 @@
-# Ardalis.SmartEnum.GuardClauses
+# MartiX.SmartEnum.GuardClauses
 
-Ardalis.SmartEnum.GuardClauses is a NuGet package that provides guard clauses to ensure input values are valid instances of a specified SmartEnum. It helps you to validate that a given value corresponds to a valid SmartEnum value and throws appropriate exceptions if it is not.
+MartiX.SmartEnum.GuardClauses is a NuGet package that provides guard clauses to ensure input values are valid instances of a specified SmartEnum. It helps you to validate that a given value corresponds to a valid SmartEnum value and throws appropriate exceptions if it is not.
 
 ## Installation
 
-To install the Ardalis.SmartEnum.GuardClauses package, run the following command in the NuGet Package Manager Console:
+To install the MartiX.SmartEnum.GuardClauses package, run the following command in the NuGet Package Manager Console:
 
 ```bash
-Install-Package Ardalis.SmartEnum.GuardClauses
+Install-Package MartiX.SmartEnum.GuardClauses
 ```
 
 Alternatively, you can install it via the .NET CLI:
 
 ```bash
-dotnet add package Ardalis.SmartEnum.GuardClauses
+dotnet add package MartiX.SmartEnum.GuardClauses
 ```
 
 ## Usage
 
 ### SmartEnumOutOfRange Method
 
-The primary method provided by this package is `SmartEnumOutOfRange`, which can be used to validate if an input value is a valid `SmartEnum`. 
+The primary method provided by this package is `SmartEnumOutOfRange`, which can be used to validate if an input value is a valid `SmartEnum`.
 
 ### Example Usage
 
 Here's an example of how to use the `SmartEnumOutOfRange` method:
 
 ```csharp
-using Ardalis.GuardClauses;
-using Ardalis.SmartEnum;
-using Ardalis.SmartEnum.GuardClauses;
+using MartiX.GuardClauses;
+using MartiX.SmartEnum;
+using MartiX.SmartEnum.GuardClauses;
 using System;
 
 public class Status : SmartEnum<Status>
@@ -116,4 +116,4 @@ Special thanks to [Ardalis](https://github.com/ardalis) for creating the SmartEn
 
 ---
 
-This README provides an overview of how to use the Ardalis.SmartEnum.GuardClauses package. Make sure to check out the [SmartEnum repository](https://github.com/ardalis/SmartEnum/) for further examples and documentation.
+This README provides an overview of how to use the MartiX.SmartEnum.GuardClauses package. Make sure to check out the [SmartEnum repository](https://github.com/ardalis/SmartEnum/) for further examples and documentation.

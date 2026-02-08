@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices.ComTypes;
 
-namespace Ardalis.SmartEnum
+namespace MartiX.SmartEnum
 {
     using System;
     using System.Collections.Generic;
@@ -10,7 +10,7 @@ namespace Ardalis.SmartEnum
     using System.Runtime.CompilerServices;
     using System.Threading;
 
-    using Ardalis.SmartEnum.Core;
+    using MartiX.SmartEnum.Core;
 
     /// <summary>
     /// A base type to use for creating smart enums with inner value of type <see cref="System.Int32"/>.

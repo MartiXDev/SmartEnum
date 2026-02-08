@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Ardalis.SmartEnum.Core
+namespace MartiX.SmartEnum.Core
 {
     /// <summary>
     /// 

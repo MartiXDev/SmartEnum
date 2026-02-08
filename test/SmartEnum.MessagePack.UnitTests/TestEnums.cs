@@ -1,4 +1,4 @@
-﻿namespace Ardalis.SmartEnum.MessagePack.UnitTests
+﻿namespace MartiX.SmartEnum.MessagePack.UnitTests
 {
     public sealed class TestEnumBoolean : SmartEnum<TestEnumBoolean, bool>
     {

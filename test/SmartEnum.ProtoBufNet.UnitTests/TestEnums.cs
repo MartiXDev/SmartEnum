@@ -1,4 +1,4 @@
-﻿namespace Ardalis.SmartEnum.ProtoBufNet.UnitTests
+﻿namespace MartiX.SmartEnum.ProtoBufNet.UnitTests
 {
     public sealed class TestEnumBoolean : SmartEnum<TestEnumBoolean, bool>
     {

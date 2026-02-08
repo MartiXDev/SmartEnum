@@ -5,9 +5,9 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
-using Ardalis.SmartEnum.Core;
+using MartiX.SmartEnum.Core;
 
-namespace Ardalis.SmartEnum
+namespace MartiX.SmartEnum
 {
     /// <summary>
     /// A base type to use for creating smart enums with inner value of type <see cref="int"/>.

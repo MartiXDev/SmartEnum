@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.MessagePack
+namespace MartiX.SmartEnum.MessagePack
 {
     using System;
     using global::MessagePack;

@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Ardalis.SmartEnum;
-using Ardalis.SmartEnum.JsonNet;
-using Ardalis.SmartEnum.JsonNet.UnitTests;
+using MartiX.SmartEnum;
+using MartiX.SmartEnum.JsonNet;
+using MartiX.SmartEnum.JsonNet.UnitTests;
 using FluentAssertions;
 using Newtonsoft.Json;
 using Xunit;
 
-namespace Ardalis.SmartEnum.JsonNet.UnitTests
+namespace MartiX.SmartEnum.JsonNet.UnitTests
 {
     public class SmartFlagEnumNameConverterTests
     {

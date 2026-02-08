@@ -1,7 +1,7 @@
 using System;
 using Newtonsoft.Json;
 
-namespace Ardalis.SmartEnum.JsonNet;
+namespace MartiX.SmartEnum.JsonNet;
 
 /// <summary>
 /// 

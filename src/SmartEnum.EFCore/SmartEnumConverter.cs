@@ -3,7 +3,7 @@ using SmartEnum.EFCore;
 using System;
 using System.Reflection;
 
-namespace Ardalis.SmartEnum.EFCore
+namespace MartiX.SmartEnum.EFCore
 {
     /// <summary>
     /// 

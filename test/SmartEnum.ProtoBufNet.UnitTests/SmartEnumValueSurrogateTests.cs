@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.ProtoBufNet.UnitTests
+namespace MartiX.SmartEnum.ProtoBufNet.UnitTests
 {
     using ProtoBuf;
     using ProtoBuf.Meta;
@@ -41,7 +41,7 @@ namespace Ardalis.SmartEnum.ProtoBufNet.UnitTests
 
         readonly string SchemaString =
 @"syntax = ""proto3"";
-package Ardalis.SmartEnum.ProtoBufNet;
+package MartiX.SmartEnum.ProtoBufNet;
 
 message SmartEnumValueSurrogate_TestEnumBoolean_Boolean {
    bool Value = 1;

@@ -2,7 +2,7 @@ using global::MessagePack;
 using global::MessagePack.Formatters;
 using System;
 
-namespace Ardalis.SmartEnum.MessagePack;
+namespace MartiX.SmartEnum.MessagePack;
 
 /// <summary>
 /// 

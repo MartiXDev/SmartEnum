@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.Dapper.IntegrationTests
+namespace MartiX.SmartEnum.Dapper.IntegrationTests
 {
     using FluentAssertions;
     using global::Dapper;

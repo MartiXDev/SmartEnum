@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<PackageId>Ardalis.SmartEnum.Utf8Json</PackageId>
-		<Title>Ardalis.SmartEnum.Utf8Json</Title>
-		<Description>Utf8Json (de)serialization support for Ardalis.SmartEnum.</Description>
-		<Summary>Utf8Json (de)serialization support for Ardalis.SmartEnum.</Summary>
+		<PackageId>MartiX.SmartEnum.Utf8Json</PackageId>
+		<Title>MartiX.SmartEnum.Utf8Json</Title>
+		<Description>Utf8Json (de)serialization support for MartiX.SmartEnum.</Description>
+		<Summary>Utf8Json (de)serialization support for MartiX.SmartEnum.</Summary>
 		<PackageTags>enum;smartenum;ardalis;json;utf8json;resolver</PackageTags>
 		<PackageReleaseNotes>See root package release notes</PackageReleaseNotes>
 		<PackageIcon>icon.png</PackageIcon>
-		<AssemblyName>Ardalis.SmartEnum.Utf8Json</AssemblyName>
-		<RootNamespace>Ardalis.SmartEnum.Utf8Json</RootNamespace>
+		<AssemblyName>MartiX.SmartEnum.Utf8Json</AssemblyName>
+		<RootNamespace>MartiX.SmartEnum.Utf8Json</RootNamespace>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
 		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
@@ -22,13 +22,7 @@
 	<ItemGroup>
 		<ProjectReference Include="..\SmartEnum\SmartEnum.csproj" />
 	</ItemGroup>
-	<ItemGroup>
-	  <PackageVersion Update="SonarAnalyzer.CSharp" Version="9.32.0.97167" />
-	</ItemGroup>
-	<ItemGroup>
-	  <PackageReference Update="SonarAnalyzer.CSharp">
-	    <PrivateAssets>all</PrivateAssets>
-	    <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-	  </PackageReference>
-	</ItemGroup>
+	<ItemGroup></ItemGroup>
+	<ItemGroup></ItemGroup>
 </Project>
+

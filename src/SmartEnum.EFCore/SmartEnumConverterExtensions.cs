@@ -1,5 +1,5 @@
-using Ardalis.SmartEnum;
-using Ardalis.SmartEnum.EFCore;
+using MartiX.SmartEnum;
+using MartiX.SmartEnum.EFCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;

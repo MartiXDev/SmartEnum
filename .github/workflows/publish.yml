@@ -1,4 +1,4 @@
-name: publish Ardalis.SmartEnum to nuget
+name: publish MartiX.SmartEnum to nuget
 on:
   workflow_dispatch:
   push:
@@ -8,7 +8,7 @@ on:
       - 'src/SmartEnum/**'
 jobs:
   publish:
-    name: list Ardalis.SmartEnum on nuget.org
+    name: list MartiX.SmartEnum on nuget.org
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2

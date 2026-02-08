@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.JsonNet.UnitTests
+namespace MartiX.SmartEnum.JsonNet.UnitTests
 {
     using System;
     using Newtonsoft.Json;

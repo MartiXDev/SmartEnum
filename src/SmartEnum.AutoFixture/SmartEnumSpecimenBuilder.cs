@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.AutoFixture
+namespace MartiX.SmartEnum.AutoFixture
 {
     using System;
     using global::AutoFixture.Kernel;

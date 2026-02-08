@@ -1,4 +1,4 @@
-﻿namespace Ardalis.SmartEnum.UnitTests
+﻿namespace MartiX.SmartEnum.UnitTests
 {
     using FluentAssertions;
     using Xunit;

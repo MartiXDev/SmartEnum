@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Ardalis.SmartEnum;
+namespace MartiX.SmartEnum;
 
 /// <summary>
 /// Base class for an <see cref="Attribute"/> to specify the <see cref="IEqualityComparer{T}"/> for a SmartEnum.

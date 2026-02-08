@@ -1,6 +1,6 @@
-using Ardalis.GuardClauses;
-using Ardalis.SmartEnum;
-using Ardalis.SmartEnum.GuardClauses;
+using MartiX.GuardClauses;
+using MartiX.SmartEnum;
+using MartiX.SmartEnum.GuardClauses;
 using FluentAssertions;
 using System;
 using Xunit;

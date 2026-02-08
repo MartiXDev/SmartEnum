@@ -1,4 +1,4 @@
-﻿namespace Ardalis.SmartEnum.Utf8Json.UnitTests
+﻿namespace MartiX.SmartEnum.Utf8Json.UnitTests
 {
     public sealed class TestEnumBoolean : SmartEnum<TestEnumBoolean, bool>
     {

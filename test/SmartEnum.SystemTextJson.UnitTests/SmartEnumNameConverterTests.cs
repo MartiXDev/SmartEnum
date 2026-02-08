@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.SystemTextJson.UnitTests
+namespace MartiX.SmartEnum.SystemTextJson.UnitTests
 {
     using FluentAssertions;
     using System;

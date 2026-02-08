@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.MessagePack.UnitTests
+namespace MartiX.SmartEnum.MessagePack.UnitTests
 {
     using global::MessagePack;
     using global::MessagePack.Resolvers;

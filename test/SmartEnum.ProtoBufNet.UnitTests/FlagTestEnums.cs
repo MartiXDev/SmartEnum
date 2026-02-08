@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Ardalis.SmartEnum;
+using MartiX.SmartEnum;
 
-namespace Ardalis.SmartEnum.ProtoBufNet.UnitTests
+namespace MartiX.SmartEnum.ProtoBufNet.UnitTests
 {
     public sealed class FlagTestEnumInt16 : SmartFlagEnum<FlagTestEnumInt16, short>
     {

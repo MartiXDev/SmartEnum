@@ -3,7 +3,7 @@ using System;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace Ardalis.SmartEnum.ModelBinding
+namespace MartiX.SmartEnum.ModelBinding
 {
     public class SmartEnumModelBinder : IModelBinder
     {

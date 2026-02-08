@@ -1,7 +1,7 @@
-using Ardalis.GuardClauses;
+using MartiX.GuardClauses;
 using System;
 
-namespace Ardalis.SmartEnum.GuardClauses
+namespace MartiX.SmartEnum.GuardClauses
 {
     /// <summary>
     /// Provides guard clauses to ensure input values are valid instances of a specified SmartEnum.

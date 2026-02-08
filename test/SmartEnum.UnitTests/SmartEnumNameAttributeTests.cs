@@ -6,7 +6,7 @@ using FluentAssertions;
 using FluentAssertions.Execution;
 using Xunit;
 
-namespace Ardalis.SmartEnum.UnitTests
+namespace MartiX.SmartEnum.UnitTests
 {
     public class SmartEnumNameAttributeTests
     {

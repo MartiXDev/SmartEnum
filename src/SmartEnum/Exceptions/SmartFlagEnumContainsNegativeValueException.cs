@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace Ardalis.SmartEnum.Exceptions
+namespace MartiX.SmartEnum.Exceptions
 {
     /// <summary>
     ///

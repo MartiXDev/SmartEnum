@@ -1,6 +1,6 @@
 using System.Runtime.CompilerServices;
 
-namespace Ardalis.SmartEnum.UnitTests
+namespace MartiX.SmartEnum.UnitTests
 {
 
     public class TestEnum : SmartEnum<TestEnum>

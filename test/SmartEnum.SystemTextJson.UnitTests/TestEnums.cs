@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Ardalis.SmartEnum.SystemTextJson.UnitTests
+namespace MartiX.SmartEnum.SystemTextJson.UnitTests
 {
     public sealed class TestEnumBoolean : SmartEnum<TestEnumBoolean, bool>
     {

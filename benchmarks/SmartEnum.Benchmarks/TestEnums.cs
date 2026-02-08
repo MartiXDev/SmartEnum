@@ -1,6 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
 
-namespace Ardalis.SmartEnum.Benchmarks
+namespace MartiX.SmartEnum.Benchmarks
 {
     ////////////////////////////////////////////////////////////////////////////////
     // Enum

@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using ProtoBuf;
 
-namespace Ardalis.SmartEnum.ProtoBufNet;
+namespace MartiX.SmartEnum.ProtoBufNet;
 
 /// <summary>
 /// 

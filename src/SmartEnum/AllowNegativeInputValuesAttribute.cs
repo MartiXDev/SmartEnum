@@ -1,6 +1,6 @@
 using System;
 
-namespace Ardalis.SmartEnum
+namespace MartiX.SmartEnum
 {
     /// <summary>
     /// Marker attribute used to indicate that a <c>SmartEnum</c> allows negative values.

@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.Dapper.UnitTests
+namespace MartiX.SmartEnum.Dapper.UnitTests
 {
     using FluentAssertions;
     using Moq;

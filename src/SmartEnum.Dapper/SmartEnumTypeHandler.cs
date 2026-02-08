@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.Dapper
+namespace MartiX.SmartEnum.Dapper
 {
     using System;
     using System.Data;

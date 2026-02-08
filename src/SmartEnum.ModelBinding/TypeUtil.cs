@@ -1,6 +1,6 @@
 using System;
 
-namespace Ardalis.SmartEnum.ModelBinding
+namespace MartiX.SmartEnum.ModelBinding
 {
     internal static class TypeUtil
     {

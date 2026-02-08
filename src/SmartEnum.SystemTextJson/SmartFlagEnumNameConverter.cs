@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.SystemTextJson
+namespace MartiX.SmartEnum.SystemTextJson
 {
     using System;
     using System.Linq;

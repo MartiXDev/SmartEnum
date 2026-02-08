@@ -1,4 +1,4 @@
-﻿namespace Ardalis.SmartEnum.AutoFixture.UnitTests
+﻿namespace MartiX.SmartEnum.AutoFixture.UnitTests
 {
     public sealed class TestEnum : SmartEnum<TestEnum, int>
     {

@@ -1,35 +1,26 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <PackageId>Ardalis.SmartEnum.SystemTextJson</PackageId>
-        <Title>Ardalis.SmartEnum.SystemTextJson</Title>
-        <Description>System.Text.Json (de)serialization support for Ardalis.SmartEnum.</Description>
-        <Summary>System.Text.Json (de)serialization support for Ardalis.SmartEnum.</Summary>
+        <PackageId>MartiX.SmartEnum.SystemTextJson</PackageId>
+        <Title>MartiX.SmartEnum.SystemTextJson</Title>
+        <Description>System.Text.Json (de)serialization support for MartiX.SmartEnum.</Description>
+        <Summary>System.Text.Json (de)serialization support for MartiX.SmartEnum.</Summary>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageTags>enum;smartenum;netstandard2.0;json;system.text.json;converter</PackageTags>
+        <PackageTags>enum;smartenum;json;system.text.json;converter</PackageTags>
         <PackageIcon>icon.png</PackageIcon>
-		    <PackageReleaseNotes>See root package release notes</PackageReleaseNotes>
-        <AssemblyName>Ardalis.SmartEnum.SystemTextJson</AssemblyName>
-        <RootNamespace>Ardalis.SmartEnum.SystemTextJson</RootNamespace>
+        <PackageReleaseNotes>See root package release notes</PackageReleaseNotes>
+        <AssemblyName>MartiX.SmartEnum.SystemTextJson</AssemblyName>
+        <RootNamespace>MartiX.SmartEnum.SystemTextJson</RootNamespace>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
         <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
     </PropertyGroup>
-    <ItemGroup Condition="'$(TargetFramework)' == 'netStandard2.0'">
-        <PackageReference Include="System.Text.Json" />
-    </ItemGroup>
     <ItemGroup>
         <None Include="$(SolutionDir)img\icon.png" Pack="true" Visible="false" PackagePath="" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\SmartEnum\SmartEnum.csproj" />
     </ItemGroup>
-    <ItemGroup>
-      <PackageVersion Update="SonarAnalyzer.CSharp" Version="9.32.0.97167" />
-    </ItemGroup>
-    <ItemGroup>
-      <PackageReference Update="SonarAnalyzer.CSharp">
-        <PrivateAssets>all</PrivateAssets>
-        <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-      </PackageReference>
-    </ItemGroup>
+    <ItemGroup></ItemGroup>
+    <ItemGroup></ItemGroup>
 </Project>
+

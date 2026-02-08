@@ -1,4 +1,4 @@
-name: publish Ardalis.SmartEnum.ModelBinding to nuget
+name: publish MartiX.SmartEnum.ModelBinding to nuget
 on:
   workflow_dispatch:
   push:
@@ -8,7 +8,7 @@ on:
       - 'src/SmartEnum.ModelBinding/**'
 jobs:
   publish:
-    name: list Ardalis.SmartEnum.ModelBinding on nuget.org
+    name: list MartiX.SmartEnum.ModelBinding on nuget.org
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2

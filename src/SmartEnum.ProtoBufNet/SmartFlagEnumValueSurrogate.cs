@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.ProtoBufNet
+namespace MartiX.SmartEnum.ProtoBufNet
 {
     using System;
     using ProtoBuf;

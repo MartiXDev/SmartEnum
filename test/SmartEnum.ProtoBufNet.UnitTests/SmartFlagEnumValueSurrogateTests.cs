@@ -1,10 +1,10 @@
 using FluentAssertions;
 using ProtoBuf;
 using ProtoBuf.Meta;
-using Ardalis.SmartEnum.ProtoBufNet.UnitTests;
+using MartiX.SmartEnum.ProtoBufNet.UnitTests;
 using Xunit;
 
-namespace Ardalis.SmartEnum.ProtoBufNet.UnitTests
+namespace MartiX.SmartEnum.ProtoBufNet.UnitTests
 {
     public class SmartFlagEnumValueSurrogateTests
     {
@@ -37,7 +37,7 @@ namespace Ardalis.SmartEnum.ProtoBufNet.UnitTests
 
         readonly string SchemaString =
             @"syntax = ""proto3"";
-package Ardalis.SmartEnum.ProtoBufNet;
+package MartiX.SmartEnum.ProtoBufNet;
 
 message SmartFlagEnumValueSurrogate_FlagTestEnumInt32_Int32 {
    int32 Value = 1;

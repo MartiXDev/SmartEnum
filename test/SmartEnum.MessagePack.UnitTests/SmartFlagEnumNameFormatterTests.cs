@@ -1,11 +1,11 @@
-using Ardalis.SmartEnum.MessagePack;
-using Ardalis.SmartEnum.MessagePack.UnitTests;
+using MartiX.SmartEnum.MessagePack;
+using MartiX.SmartEnum.MessagePack.UnitTests;
 using FluentAssertions;
 using MessagePack;
 using MessagePack.Resolvers;
 using Xunit;
 
-namespace Ardalis.SmartEnum.MessagePack.UnitTests
+namespace MartiX.SmartEnum.MessagePack.UnitTests
 {
     public class SmartFlagEnumNameFormatterTests
     {

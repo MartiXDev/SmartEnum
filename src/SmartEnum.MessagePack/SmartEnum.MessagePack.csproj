@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<PackageId>Ardalis.SmartEnum.MessagePack</PackageId>
-		<Title>Ardalis.SmartEnum.MessagePack</Title>
-		<Description>MessagePack (de)serialization support for Ardalis.SmartEnum.</Description>
-		<Summary>MessagePack (de)serialization support for Ardalis.SmartEnum.</Summary>
+		<PackageId>MartiX.SmartEnum.MessagePack</PackageId>
+		<Title>MartiX.SmartEnum.MessagePack</Title>
+		<Description>MessagePack (de)serialization support for MartiX.SmartEnum.</Description>
+		<Summary>MessagePack (de)serialization support for MartiX.SmartEnum.</Summary>
 		<PackageTags>enum;smartenum;ardalis;messagepack;resolver</PackageTags>
 		<PackageReleaseNotes>See root package release notes</PackageReleaseNotes>
 		<PackageIcon>icon.png</PackageIcon>
-		<AssemblyName>Ardalis.SmartEnum.MessagePack</AssemblyName>
-		<RootNamespace>Ardalis.SmartEnum.MessagePack</RootNamespace>
+		<AssemblyName>MartiX.SmartEnum.MessagePack</AssemblyName>
+		<RootNamespace>MartiX.SmartEnum.MessagePack</RootNamespace>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
 		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>

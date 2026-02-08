@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Ardalis.SmartEnum;
-using Ardalis.SmartEnum.UnitTests;
+using MartiX.SmartEnum;
+using MartiX.SmartEnum.UnitTests;
 using FluentAssertions;
 using Xunit;
 
-namespace Ardalis.SmartFlagEnum.UnitTests
+namespace MartiX.SmartFlagEnum.UnitTests
 {
     public class SmartFlagEnumExtensionTests
     {

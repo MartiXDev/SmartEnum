@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Ardalis.SmartEnum;
-using Ardalis.SmartEnum.Exceptions;
-using Ardalis.SmartEnum.UnitTests;
+using MartiX.SmartEnum;
+using MartiX.SmartEnum.Exceptions;
+using MartiX.SmartEnum.UnitTests;
 using Xunit;
 
-namespace Ardalis.SmartFlagEnum.UnitTests
+namespace MartiX.SmartFlagEnum.UnitTests
 {
     public class SmartFlagGetFlagEnumTests
     {

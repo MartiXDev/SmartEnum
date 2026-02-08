@@ -1,7 +1,7 @@
 ﻿using System;
-using Ardalis.SmartEnum.Exceptions;
+using MartiX.SmartEnum.Exceptions;
 
-namespace Ardalis.SmartEnum
+namespace MartiX.SmartEnum
 {
     static class ThrowHelper
     {

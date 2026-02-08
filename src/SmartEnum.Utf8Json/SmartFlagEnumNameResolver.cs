@@ -2,7 +2,7 @@ using System;
 using global::Utf8Json;
 using global::Utf8Json.Formatters;
 
-namespace Ardalis.SmartEnum.Utf8Json;
+namespace MartiX.SmartEnum.Utf8Json;
 
 /// <summary>
 /// 

@@ -1,6 +1,6 @@
-namespace Ardalis.SmartEnum.Dapper.UnitTests
+namespace MartiX.SmartEnum.Dapper.UnitTests
 {
-    using Ardalis.SmartEnum.Dapper;
+    using MartiX.SmartEnum.Dapper;
     using FluentAssertions;
     using System;
     using System.Data;

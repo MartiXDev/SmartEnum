@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Ardalis.SmartEnum;
+using MartiX.SmartEnum;
 
-namespace Ardalis.SmartEnum.UnitTests
+namespace MartiX.SmartEnum.UnitTests
 {
     public class SmartFlagTestEnum : SmartFlagEnum<SmartFlagTestEnum>
     {

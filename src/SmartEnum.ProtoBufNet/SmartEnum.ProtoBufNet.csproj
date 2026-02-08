@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<PackageId>Ardalis.SmartEnum.ProtoBufNet</PackageId>
-		<Title>Ardalis.SmartEnum.ProtoBufNet</Title>
-		<Description>protobuf-net (de)serialization support for Ardalis.SmartEnum.</Description>
-		<Summary>protobuf-net (de)serialization support for Ardalis.SmartEnum.</Summary>
+		<PackageId>MartiX.SmartEnum.ProtoBufNet</PackageId>
+		<Title>MartiX.SmartEnum.ProtoBufNet</Title>
+		<Description>protobuf-net (de)serialization support for MartiX.SmartEnum.</Description>
+		<Summary>protobuf-net (de)serialization support for MartiX.SmartEnum.</Summary>
 		<PackageTags>enum;smartenum;ardalis;protobuf;protobufnet;surrogate</PackageTags>
 		<PackageReleaseNotes>See root package release notes</PackageReleaseNotes>
 		<PackageIcon>icon.png</PackageIcon>
-		<AssemblyName>Ardalis.SmartEnum.ProtoBufNet</AssemblyName>
-		<RootNamespace>Ardalis.SmartEnum.ProtoBufNet</RootNamespace>
+		<AssemblyName>MartiX.SmartEnum.ProtoBufNet</AssemblyName>
+		<RootNamespace>MartiX.SmartEnum.ProtoBufNet</RootNamespace>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
 		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
@@ -22,13 +22,7 @@
 	<ItemGroup>
 		<ProjectReference Include="..\SmartEnum\SmartEnum.csproj" />
 	</ItemGroup>
-	<ItemGroup>
-	  <PackageVersion Update="SonarAnalyzer.CSharp" Version="9.32.0.97167" />
-	</ItemGroup>
-	<ItemGroup>
-	  <PackageReference Update="SonarAnalyzer.CSharp">
-	    <PrivateAssets>all</PrivateAssets>
-	    <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-	  </PackageReference>
-	</ItemGroup>
+	<ItemGroup></ItemGroup>
+	<ItemGroup></ItemGroup>
 </Project>
+

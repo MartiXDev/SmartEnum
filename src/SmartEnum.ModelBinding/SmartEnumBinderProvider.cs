@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 using System;
 
-namespace Ardalis.SmartEnum.ModelBinding
+namespace MartiX.SmartEnum.ModelBinding
 {
     public class SmartEnumBinderProvider : IModelBinderProvider
     {

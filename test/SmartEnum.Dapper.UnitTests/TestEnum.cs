@@ -1,6 +1,6 @@
-namespace Ardalis.SmartEnum.Dapper.UnitTests
+namespace MartiX.SmartEnum.Dapper.UnitTests
 {
-    using Ardalis.SmartEnum;
+    using MartiX.SmartEnum;
     using System.Runtime.CompilerServices;
 
     public class TestEnum : SmartEnum<TestEnum>

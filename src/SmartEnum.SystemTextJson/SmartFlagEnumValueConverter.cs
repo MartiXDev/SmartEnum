@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Ardalis.SmartEnum.SystemTextJson;
+namespace MartiX.SmartEnum.SystemTextJson;
 /// <summary>
 /// 
 /// </summary>

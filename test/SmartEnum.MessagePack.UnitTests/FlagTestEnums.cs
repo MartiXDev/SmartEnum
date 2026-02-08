@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum.MessagePack.UnitTests
+namespace MartiX.SmartEnum.MessagePack.UnitTests
 {
 	public sealed class FlagTestEnumInt16 : SmartFlagEnum<FlagTestEnumInt16, short>
     {

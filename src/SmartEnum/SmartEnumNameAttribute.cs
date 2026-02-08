@@ -7,7 +7,7 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-namespace Ardalis.SmartEnum
+namespace MartiX.SmartEnum
 {
     /// <summary>
     /// A <see cref="ValidationAttribute"/> that ensures the provided value matches the

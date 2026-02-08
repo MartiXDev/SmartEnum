@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Ardalis.SmartEnum.JsonNet
+namespace MartiX.SmartEnum.JsonNet
 {
     using Newtonsoft.Json;
     using System;

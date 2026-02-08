@@ -1,4 +1,4 @@
-namespace Ardalis.SmartEnum
+namespace MartiX.SmartEnum
 {
     using System;
     using System.Collections.Generic;

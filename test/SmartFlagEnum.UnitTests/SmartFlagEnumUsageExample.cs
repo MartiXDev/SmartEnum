@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Ardalis.SmartEnum;
+using MartiX.SmartEnum;
 using Xunit;
 
-namespace Ardalis.SmartFlagEnum.UnitTests
+namespace MartiX.SmartFlagEnum.UnitTests
 {
     public abstract class EmployeeType : SmartFlagEnum<EmployeeType>
     {
